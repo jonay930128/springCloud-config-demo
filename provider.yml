@@ -2,8 +2,6 @@ spring:
     profiles: 
         active: 
         - dev
-    application:
-        name: provider
 
 eureka:
   client: #客户端注册进eureka服务列表内
@@ -24,10 +22,14 @@ server:
     port: 8001
 spring: 
     profiles: dev
+    application:
+        name: provider
 ---
 server: 
     port: 8002
 spring: 
     profiles: test
+    application:
+        name: provider
       
 
