@@ -26,7 +26,7 @@ spring:
         name: provider
 ---
 server: 
-    port: 8002
+    port: 8003
 spring: 
     profiles: test
     application:
