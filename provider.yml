@@ -24,6 +24,11 @@ spring:
     profiles: dev
     application:
         name: provider
+    rabbitmq:
+        host: 10.0.59.79
+        port: 5672
+        username: guest
+        password: guest
 ---
 server: 
     port: 8003
@@ -31,5 +36,10 @@ spring:
     profiles: test
     application:
         name: provider
+    rabbitmq:
+        host: 10.0.59.79
+        port: 5672
+        username: guest
+        password: guest
       
 
