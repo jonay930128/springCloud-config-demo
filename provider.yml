@@ -21,6 +21,8 @@ info:
 management: 
     security: 
         enabled: false
+
+myName: zhangsan
 ---
 server: 
     port: 8001
