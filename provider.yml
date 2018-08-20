@@ -31,7 +31,7 @@ spring:
         password: guest
 ---
 server: 
-    port: 8007
+    port: 8006
 spring: 
     profiles: test
     application:
