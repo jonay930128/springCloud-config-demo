@@ -25,7 +25,7 @@ spring:
     application:
         name: provider
     rabbitmq:
-        host: 10.0.59.79
+        host: 10.0.59.102
         port: 5672
         username: guest
         password: guest
@@ -37,7 +37,7 @@ spring:
     application:
         name: provider
     rabbitmq:
-        host: 10.0.59.79
+        host: 10.0.59.102
         port: 5672
         username: guest
         password: guest
