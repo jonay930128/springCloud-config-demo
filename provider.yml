@@ -17,6 +17,10 @@ info:
   company.name: www.jd.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+management: 
+    security: 
+        enabled: false
 ---
 server: 
     port: 8001
