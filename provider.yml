@@ -13,7 +13,6 @@ eureka:
 
 info:
   app.name: I am a provider demo
-  app.desc: 一个简单的提供者demo
   company.name: www.jd.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
@@ -31,7 +30,7 @@ spring:
     application:
         name: provider
     rabbitmq:
-        host: 10.0.56.48
+        host: 10.0.56.57
         port: 5672
         username: guest
         password: guest
@@ -43,7 +42,7 @@ spring:
     application:
         name: provider
     rabbitmq:
-        host: 10.0.56.48
+        host: 10.0.56.57
         port: 5672
         username: guest
         password: guest
