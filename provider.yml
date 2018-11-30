@@ -43,7 +43,7 @@ spring:
     application:
         name: provider
     rabbitmq:
-        host: 10.0.56.250
+        host: 10.0.56.55
         port: 5672
         username: guest
         password: guest
